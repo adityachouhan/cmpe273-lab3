@@ -1,1 +1,4 @@
+Case 1 : when client and server are on different IP
 When we send message from client in Multicast UDP when server is not available, the UDP packets get dropped and the clients waits for the server to respond and it results in client getting stuck of hang.
+Case 2 : Same IP address for client and server
+No error but client gets stuck.
